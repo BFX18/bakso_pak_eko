@@ -4,6 +4,10 @@ body {
   text-align: center;
 }
 
+td {
+  border: 1px solid black;
+}
+
 .feature-icon {
   width: 4rem;
   height: 4rem;
@@ -36,11 +40,6 @@ hr {
 
 a {
   color: white;
-}
-
-/* header */
-#header {
-  background-color: gray;
 }
 
 /* Headings */
@@ -115,7 +114,10 @@ a {
 
 /* Home */
 #home {
-  background-color: gray;
+  background-image: url("../images/banner.png");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
 }
 
 /* Buttons */
